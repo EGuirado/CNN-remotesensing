@@ -35,7 +35,7 @@ Validation/
 
 ## Code
 Retrain model with new repository data
-```python
+```bash
 python retrain_au-scale.py --bottleneck_dir=tests/bottlenecks-100stZ_S-105-299 --how_many_training_steps 100 --model_dir=inception --output_graph=tests/retrained_graph-100stZ_S-105-299.pb --output_labels=tests/retrained_labels-100stZ_S-105-299.txt --image_dir=datasets/
 ```
 
