@@ -3,8 +3,36 @@
 Using CNN models (ResNet and Inception v3) to detect shrubs in satellite imagery (Google Earth)
 
 ## Dataset
-.
-.
+The training dataset must show this structure:
+'''
+Train/
+      class1/
+             class1_image0.jpg
+             class1_image1.jpg
+             .
+             .
+             .
+      classN/
+             classN_image0.jpg
+             classN_image1.jpg
+             .
+             .
+             .
+Validation/
+          class1/
+             class1_image0.jpg
+             class1_image1.jpg
+             .
+             .
+             .
+      classN/
+             classN_image0.jpg
+             classN_image1.jpg
+             .
+             .
+             .
+'''  
+
 ## Code
 
 
