@@ -20,29 +20,40 @@ Train/
              .
 Validation/
           class1/
-             class1_image0.jpg
-             class1_image1.jpg
-             .
-             .
-             .
-      classN/
-             classN_image0.jpg
-             classN_image1.jpg
-             .
-             .
-             .
+                class1_image0.jpg
+                class1_image1.jpg
+                .
+                .
+                .
+          classN/
+                classN_image0.jpg
+                classN_image1.jpg
+                .
+                .
+                .
 ```  
 
 ## Code
-Retrain Inception model with new repository data
+- Retrain Inception v3 model with new repository data
 ```bash
 python retrain_inceptionv3.py --bottleneck_dir=tests/bottlenecks-100stZ_S-105-299 --how_many_training_steps 100 --model_dir=inception --output_graph=tests/retrained_graph-100stZ_S-105-299.pb --output_labels=tests/retrained_labels-100stZ_S-105-299.txt --image_dir=datasets/
 ```
+
+Sliding window Heatmap
+Required:
+- Pillow
+- matplotlib
+- numpy
+
+```bash
+```
+
 Preprocessing data and clasify
 Required:
 - Opencv2
 - Python2.7
-
+```bash
+```
 .
 .
 .
