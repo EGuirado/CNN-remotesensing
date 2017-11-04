@@ -1,6 +1,6 @@
 # CNN-remotesensing
 
-Using CNN models (ResNet and Inception v3) to detect shrubs in satellite imagery (Google Earth)
+Using CNN models (ResNet-152 and Inception v3) to detect shrubs in satellite imagery (Google Earth)
 
 ## Dataset
 The training dataset must show this structure:
