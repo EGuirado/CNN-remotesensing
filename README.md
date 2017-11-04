@@ -4,7 +4,7 @@ Using CNN models (ResNet and Inception v3) to detect shrubs in satellite imagery
 
 ## Dataset
 The training dataset must show this structure:
-'''
+```
 Train/
       class1/
              class1_image0.jpg
@@ -31,7 +31,7 @@ Validation/
              .
              .
              .
-'''  
+```  
 
 ## Code
 
