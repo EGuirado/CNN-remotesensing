@@ -34,7 +34,10 @@ Validation/
 ```  
 
 ## Code
-- Retrain Inception v3 model with new repository data
+Retrain [Inception v3](retrain_inceptionv3.py) model with new repository data.
+Required:
+- Tensorflow v.0.10
+
 ```bash
 python retrain_inceptionv3.py --bottleneck_dir=tests/bottlenecks-100stZ_S-105-299 --how_many_training_steps 100 --model_dir=inception --output_graph=tests/retrained_graph-100stZ_S-105-299.pb --output_labels=tests/retrained_labels-100stZ_S-105-299.txt --image_dir=datasets/
 ```
