@@ -2,6 +2,8 @@
 
 Using CNN models (ResNet-152 and Inception v3) to detect shrubs in satellite imagery (Google Earth)
 
+# UNDER CONSTRUCTION...
+
 ## Dataset
 The training dataset must show this structure:
 ```
