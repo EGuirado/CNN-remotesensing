@@ -2,7 +2,7 @@
 
 Using CNN models (ResNet-152 and Inception v3) to detect shrubs in satellite imagery (Google Earth)
 
-# UNDER CONSTRUCTION...
+Due to space limitation in Github, the dataset and codes are provided via email request to this email: e.guirado@ual.es and siham@ugr.es
 
 ## Dataset
 The training dataset must show this structure:
@@ -60,7 +60,7 @@ Required:
 ```bash
 ```
 .
-Under construction...
+.
 .
 
 ## acknowledgements
