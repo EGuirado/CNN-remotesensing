@@ -1,6 +1,6 @@
 # CNN-remotesensing
 
-Using CNN models (ResNet-152 and Inception v3) to detect shrubs in satellite imagery (Google Earth)
+The study of shrub detection with Google Earth imagery was based on Inception model and  ResNet-152 model using Keras(as front-end) and Tensorflow(as back-end).
 
 Due to space limitation in Github, the dataset and codes are provided via email request to this email: e.guirado@ual.es and siham@ugr.es
 
